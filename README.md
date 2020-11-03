@@ -8,7 +8,7 @@ karyoploteR is an R package to create karyoplots. A chromosome ideogram can be p
 library(karyoploteR)
 kp <- plotKaryotype(plot.type=6)
 ```
-![Basic plot](/Images/basicplot.jpg)
+![Basic plot](/Images/basicplot.png)
 
 Cytobands are drawn with the default “circos” color scheme, where centromeres are painted in red.
 
@@ -31,4 +31,4 @@ kp <- plotKaryotype(plot.type=6, plot.params = plot.params, cytobands = cytoband
 # Draw centromeres
 kpSegments(kp, chr=rep(centromeres$seqnames, 2), x0=rep(centromeres$x0, 2), x1=rep(centromeres$x1, 2), y0=c(rep(0,chr), rep(1,chr)), y1=c(rep(1,chr), rep(0,chr)))
 ```
-![Centromere plot](/Images/centromereplot.jpg)
+![Centromere plot](/Images/centromereplot.png)
