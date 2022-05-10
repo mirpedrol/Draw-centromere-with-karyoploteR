@@ -1,7 +1,7 @@
 
 ## Draw centromere with karyoploteR
 
-[Preview](http://htmlpreview.github.io/?https://github.com/asthara10/Draw-centromere-with-karyoploteR/blob/main/karyoploteR_centromere.html) of the html file with instructions.
+[Preview](http://htmlpreview.github.io/?https://github.com/mirpedrol/Draw-centromere-with-karyoploteR/blob/main/karyoploteR_centromere.html) of the html file with instructions.
 
 karyoploteR is an R package to create karyoplots. A chromosome ideogram can be plotted easily with two code lines.
 ```R
